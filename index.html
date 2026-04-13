@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Stack & Sons Burgers — Family-run smash burgers in Riverside, CA. Smashed, stacked, and made with love since 2009.">
+  <title>Stack &amp; Sons Burgers | Riverside, CA</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js" type="module"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <nav id="navbar" class="navbar">
+    <div class="container navbar__inner">
+
+      <!-- Brand Logo -->
+      <a href="#hero" class="navbar__logo">
+        <i class="ph ph-fire-simple navbar__logo-icon"></i>
+        <span class="navbar__logo-text">Stack <span class="navbar__logo-amp">&amp;</span> Sons</span>
+      </a>
+
+      <!-- Desktop Links -->
+      <ul class="navbar__links" role="list">
+        <li><a href="#story"    class="navbar__link">Our Story</a></li>
+        <li><a href="#menu"     class="navbar__link">Menu</a></li>
+        <li><a href="#gallery"  class="navbar__link">Gallery</a></li>
+        <li><a href="#location" class="navbar__link">Find Us</a></li>
+      </ul>
+
+      <!-- Right-side Actions -->
+      <div class="navbar__actions">
+        <a href="#menu" class="btn btn--primary navbar__cta">Order Now</a>
+        <button class="navbar__toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobileMenu">
+          <i class="ph ph-list" id="menuIcon"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="navbar__mobile" id="mobileMenu" aria-hidden="true">
+      <ul class="navbar__mobile-links" role="list">
+        <li><a href="#story"    class="navbar__mobile-link">Our Story</a></li>
+        <li><a href="#menu"     class="navbar__mobile-link">Menu</a></li>
+        <li><a href="#gallery"  class="navbar__mobile-link">Gallery</a></li>
+        <li><a href="#location" class="navbar__mobile-link">Find Us</a></li>
+        <li><a href="#menu"     class="btn btn--primary navbar__mobile-cta">Order Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section id="hero" class="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">
+        <span class="hero__eyebrow-dot"></span>
+        Est. 2009 &nbsp;&mdash;&nbsp; Riverside, CA
+        <span class="hero__eyebrow-dot"></span>
+      </p>
+      <h1 class="hero__title">Stack &amp; Sons<br>Burgers</h1>
+      <p class="hero__tagline">Smashed. Stacked. Family-Made.</p>
+      <div class="hero__actions">
+        <a href="#menu"  class="btn btn--primary btn--lg">See Our Menu</a>
+        <a href="#story" class="btn btn--outline btn--lg">Our Story</a>
+      </div>
+    </div>
+    <a href="#story" class="hero__scroll" aria-label="Scroll to next section">
+      <i class="ph ph-arrow-down"></i>
+    </a>
+  </section>
+
+
+  <!-- ============================================================
+       OUR STORY
+  ============================================================ -->
+  <section id="story" class="story section">
+    <div class="container">
+      <div class="story__inner">
+
+        <!-- Text Column -->
+        <div class="story__text">
+          <p class="section-eyebrow">Who We Are</p>
+          <h2 class="section-title">A Family Recipe.<br>A Neighborhood <em>Institution.</em></h2>
+          <p class="story__body">
+            What started as a backyard cookout tradition has turned into Riverside's
+            favorite gathering spot. Jack Stack and his two sons, Milo and Eli, opened
+            Stack &amp; Sons in 2009 with one cast-iron griddle, a family recipe passed
+            down from Jack's father, and a whole lot of heart.
+          </p>
+          <p class="story__body">
+            Every smash burger we serve is pressed hard and fast on a screaming-hot flat-top —
+            just the way Grandpa Stack taught us. No shortcuts, no freezers, no apologies.
+            Just fresh beef, real ingredients, and a kitchen run by people who love what they cook.
+          </p>
+
+          <!-- Stats Row -->
+          <div class="story__stats">
+            <div class="story__stat">
+              <span class="story__stat-number"><span class="story__stat-count">15</span><span class="story__stat-suffix">+</span></span>
+              <span class="story__stat-label">Years Serving</span>
+            </div>
+            <div class="story__stat-divider"></div>
+            <div class="story__stat">
+              <span class="story__stat-number">100%</span>
+              <span class="story__stat-label">Fresh Beef Daily</span>
+            </div>
+            <div class="story__stat-divider"></div>
+            <div class="story__stat">
+              <span class="story__stat-number">1</span>
+              <span class="story__stat-label">Family Recipe</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual Column -->
+        <div class="story__visual">
+          <div class="story__frame">
+            <div class="story__frame-photo">
+              <i class="ph ph-fire story__frame-icon"></i>
+              <p class="story__frame-caption">
+                The Stack Family<br>
+                <em>Riverside, CA &mdash; 2009</em>
+              </p>
+            </div>
+            <!-- Offset decorative border -->
+            <div class="story__frame-border"></div>
+          </div>
+          <!-- Circular badge -->
+          <div class="story__badge" aria-hidden="true">
+            <div class="story__badge-inner">
+              <span>Family</span>
+              <span>Run</span>
+              <span>Since '09</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       MENU
+  ============================================================ -->
+  <section id="menu" class="menu-section section section--dark">
+    <div class="container">
+      <p class="section-eyebrow section-eyebrow--light">What We're Cooking</p>
+      <h2 class="section-title section-title--light">The Menu</h2>
+      <p class="section-subtitle section-subtitle--light">Made fresh every day. Never frozen. Never faked.</p>
+
+
+      <!-- ── BURGERS ─────────────────── -->
+      <div class="menu-category">
+        <h3 class="menu-category__title">
+          <i class="ph ph-hamburger"></i>
+          Burgers
+        </h3>
+        <div class="menu-grid">
+
+          <article class="menu-card">
+            <div class="menu-card__tag menu-card__tag--popular">Most Popular</div>
+            <div class="menu-card__body">
+              <h4 class="menu-card__name">The Classic Stack</h4>
+              <p class="menu-card__desc">Double smash patty, American cheese, pickles, diced white onion, and our house Stack sauce on a toasted brioche bun.</p>
+              <div class="menu-card__footer">
+                <span class="menu-card__price">$10.99</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-card__tag menu-card__tag--spicy">
+              <i class="ph ph-pepper"></i> Spicy
+            </div>
+            <div class="menu-card__body">
+              <h4 class="menu-card__name">The Firehouse</h4>
+              <p class="menu-card__desc">Smash patty, pepper jack cheese, fresh jalapeños, crispy fried onions, and smoky chipotle aioli.</p>
+              <div class="menu-card__footer">
+                <span class="menu-card__price">$12.49</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-card__tag menu-card__tag--new">New</div>
+            <div class="menu-card__body">
+              <h4 class="menu-card__name">The Backyard BBQ</h4>
+              <p class="menu-card__desc">Smash patty, sharp cheddar, house-smoked bacon, beer-battered onion rings, and tangy house BBQ sauce.</p>
+              <div class="menu-card__footer">
+                <span class="menu-card__price">$13.99</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-card__body">
+              <h4 class="menu-card__name">The Garden Gate</h4>
+              <p class="menu-card__desc">Seasoned black bean patty, smashed avocado, fresh sprouts, cucumber, and herbed cucumber ranch on a whole-grain bun.</p>
+              <div class="menu-card__footer">
+                <span class="menu-card__price">$11.49</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card menu-card--featured">
+            <div class="menu-card__tag menu-card__tag--popular">Fan Favorite</div>
+            <div class="menu-card__body">
+              <h4 class="menu-card__name">The Double Down</h4>
+              <p class="menu-card__desc">Triple smash patties, triple American cheese, slow-caramelized onions, house pickles, and our legendary secret sauce. Not for the faint of heart.</p>
+              <div class="menu-card__footer">
+                <span class="menu-card__price">$15.99</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+
+      <!-- ── SIDES ─────────────────────── -->
+      <div class="menu-category">
+        <h3 class="menu-category__title">
+          <i class="ph ph-fork-knife"></i>
+          Sides
+        </h3>
+        <div class="menu-grid menu-grid--three">
+
+          <article class="menu-card">
+            <div class="menu-card__body">
+              <h4 class="menu-card__name">Smash Fries</h4>
+              <p class="menu-card__desc">Thin-cut russet fries, double-fried for maximum crunch, seasoned with our house spice blend and a sprinkle of flaky sea salt.</p>
+              <div class="menu-card__footer">
+                <span class="menu-card__price">$4.49</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-card__body">
+              <h4 class="menu-card__name">Onion Rings</h4>
+              <p class="menu-card__desc">Sweet Vidalia onions in a crispy beer batter, fried golden-brown and served with our smoky house dipping sauce.</p>
+              <div class="menu-card__footer">
+                <span class="menu-card__price">$5.49</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-card__body">
+              <h4 class="menu-card__name">Street Corn</h4>
+              <p class="menu-card__desc">Fire-charred corn off the cob, tossed with cotija cheese, lime crema, chili flakes, and fresh cilantro.</p>
+              <div class="menu-card__footer">
+                <span class="menu-card__price">$4.99</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+
+      <!-- ── DRINKS ─────────────────────── -->
+      <div class="menu-category">
+        <h3 class="menu-category__title">
+          <i class="ph ph-coffee"></i>
+          Drinks
+        </h3>
+        <div class="menu-grid menu-grid--three">
+
+          <article class="menu-card">
+            <div class="menu-card__body">
+              <h4 class="menu-card__name">Craft Root Beer</h4>
+              <p class="menu-card__desc">House-brewed in small batches with a hint of vanilla. Served ice cold in a frosted mug — the perfect burger companion.</p>
+              <div class="menu-card__footer">
+                <span class="menu-card__price">$3.49</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-card__body">
+              <h4 class="menu-card__name">Fresh Lemonade</h4>
+              <p class="menu-card__desc">Hand-squeezed every morning. Choose classic sweet, extra tart, or ask about our seasonal special — today it's strawberry lavender.</p>
+              <div class="menu-card__footer">
+                <span class="menu-card__price">$2.99</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-card__tag menu-card__tag--popular">Customer Fave</div>
+            <div class="menu-card__body">
+              <h4 class="menu-card__name">Chocolate Shake</h4>
+              <p class="menu-card__desc">Thick, creamy, and hand-spun with real chocolate ice cream. Crowned with fresh whipped cream and served with a paper straw.</p>
+              <div class="menu-card__footer">
+                <span class="menu-card__price">$5.99</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       PHOTO GALLERY
+  ============================================================ -->
+  <section id="gallery" class="gallery section">
+    <div class="container">
+      <p class="section-eyebrow">Behind the Counter</p>
+      <h2 class="section-title">Fresh From<br>the Flat-Top</h2>
+
+      <div class="gallery__grid">
+
+        <!-- Item 1: Tall — spans 2 rows -->
+        <figure class="gallery__item gallery__item--tall">
+          <img class="gallery__photo" src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600" alt="The Classic Stack burger, fresh off the griddle" loading="lazy">
+          <figcaption class="gallery__caption">The Classic Stack, fresh off the griddle</figcaption>
+        </figure>
+
+        <!-- Item 2: Normal -->
+        <figure class="gallery__item">
+          <img class="gallery__photo" src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=600" alt="Golden Smash Fries" loading="lazy">
+          <figcaption class="gallery__caption">Golden Smash Fries</figcaption>
+        </figure>
+
+        <!-- Item 3: Normal -->
+        <figure class="gallery__item">
+          <img class="gallery__photo" src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=600" alt="The Firehouse burger up close" loading="lazy">
+          <figcaption class="gallery__caption">The Firehouse — Up Close</figcaption>
+        </figure>
+
+        <!-- Item 4: Wide — spans 2 cols -->
+        <figure class="gallery__item gallery__item--wide">
+          <img class="gallery__photo" src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=600" alt="Jack and Milo at the flat-top grill" loading="lazy">
+          <figcaption class="gallery__caption">Jack &amp; Milo at the Flat-Top</figcaption>
+        </figure>
+
+        <!-- Item 5: Normal -->
+        <figure class="gallery__item">
+          <img class="gallery__photo" src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=600" alt="Friday night rush at Stack and Sons" loading="lazy">
+          <figcaption class="gallery__caption">Friday Night Rush</figcaption>
+        </figure>
+
+        <!-- Item 6: Wide — spans 2 cols -->
+        <figure class="gallery__item gallery__item--wide">
+          <img class="gallery__photo" src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=600" alt="House-made chocolate shake" loading="lazy">
+          <figcaption class="gallery__caption">House-Made Chocolate Shake</figcaption>
+        </figure>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       HOURS & LOCATION
+  ============================================================ -->
+  <section id="location" class="location section section--cream">
+    <div class="container">
+      <p class="section-eyebrow">Come On In</p>
+      <h2 class="section-title">Hours &amp; Location</h2>
+
+      <div class="location__inner">
+
+        <!-- Left: Hours + Contact -->
+        <div class="location__info">
+
+          <div class="location__block">
+            <h3 class="location__subheading">
+              <i class="ph ph-clock"></i>
+              Operating Hours
+            </h3>
+            <table class="hours-table">
+              <tbody>
+                <tr>
+                  <td class="hours-table__day">Monday &ndash; Thursday</td>
+                  <td class="hours-table__time">11:00 AM &ndash; 9:00 PM</td>
+                </tr>
+                <tr class="hours-table__row--highlight">
+                  <td class="hours-table__day">Friday &ndash; Saturday</td>
+                  <td class="hours-table__time">11:00 AM &ndash; 10:00 PM</td>
+                </tr>
+                <tr>
+                  <td class="hours-table__day">Sunday</td>
+                  <td class="hours-table__time">12:00 PM &ndash; 8:00 PM</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="location__note">
+              <i class="ph ph-info"></i>
+              Kitchen closes 30 minutes before closing time.
+            </p>
+          </div>
+
+          <div class="location__block">
+            <h3 class="location__subheading">
+              <i class="ph ph-phone"></i>
+              Contact Us
+            </h3>
+            <p class="location__contact-item">
+              <i class="ph ph-phone-call"></i>
+              <a href="tel:+19515550182">(951) 555-0182</a>
+            </p>
+            <p class="location__contact-item">
+              <i class="ph ph-envelope-simple"></i>
+              <a href="mailto:hello@stackandsons.com">hello@stackandsons.com</a>
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Right: Map + Address -->
+        <div class="location__map-col">
+          <h3 class="location__subheading">
+            <i class="ph ph-map-pin"></i>
+            Find Us
+          </h3>
+          <address class="location__address">
+            428 Maple Street<br>
+            Riverside, CA 92501
+          </address>
+
+          <!-- Google Maps embed — 123 Main Street, Huntington Beach, CA 92648 -->
+          <div class="map-embed">
+            <iframe
+              src="https://maps.google.com/maps?q=Huntington+Beach,CA&output=embed"
+              width="100%"
+              height="400"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Stack &amp; Sons Burgers location — 123 Main Street, Huntington Beach, CA 92648"
+            ></iframe>
+          </div>
+
+          <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm">
+            <i class="ph ph-navigation-arrow"></i>
+            Get Directions
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+
+        <!-- Brand Column -->
+        <div class="footer__brand">
+          <a href="#hero" class="footer__logo">
+            <i class="ph ph-fire-simple footer__logo-icon"></i>
+            Stack &amp; Sons Burgers
+          </a>
+          <p class="footer__tagline">Smashed. Stacked. Family-Made.</p>
+          <p class="footer__address">428 Maple Street, Riverside, CA 92501</p>
+        </div>
+
+        <!-- Quick Links Column -->
+        <nav class="footer__nav" aria-label="Footer navigation">
+          <h4 class="footer__nav-heading">Quick Links</h4>
+          <ul class="footer__nav-list" role="list">
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#location">Hours &amp; Location</a></li>
+          </ul>
+        </nav>
+
+        <!-- Social Column -->
+        <div class="footer__social-col">
+          <h4 class="footer__nav-heading">Follow Along</h4>
+          <div class="footer__social-links">
+            <a href="#" class="footer__social-link" aria-label="Instagram">
+              <i class="ph ph-instagram-logo"></i>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Facebook">
+              <i class="ph ph-facebook-logo"></i>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="TikTok">
+              <i class="ph ph-tiktok-logo"></i>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="X (Twitter)">
+              <i class="ph ph-x-logo"></i>
+            </a>
+          </div>
+          <p class="footer__social-handle">@stackandsons</p>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer__bottom">
+        <p>&copy; 2026 Stack &amp; Sons Burgers. All rights reserved.</p>
+        <p>Made with <i class="ph ph-heart footer__heart"></i> in Riverside, CA</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
